@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>徐柏安的自我介紹</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div id="overlay" class="overlay"></div>
+    <div id="auto-modal" class="modal-content unscrollable" style="display: none;">
+        <span class="close-btn" onclick="closeModal('auto')">&times;</span>
+        <p>歡迎來到我的網站！</p>
+    </div>
+    <div id="click-modal" class="modal-content scrollable" style="display: none;">
+        <span class="close-btn-scroll" onclick="closeModal('click')">&times;</span>
+        <div class="modal-scrollable-content">  
+        <p>都沒人揪烤肉啊好啊沒關係啊我沒差啊我就不重要啊你繼續找理由啊我不在乎啊反正每個人都這樣啊我已經習慣了啦真的沒關係啊其他人開心就好了不用在乎我真的啦我就是沒人愛啦隨便你好了反正每次都這樣我沒差我真的沒關係就這樣吧你不用來找我也可以啦我真的沒有關係你玩得開心就好我不會打擾到你不用陪我啦真的不用你不是跟他們玩得很開心嗎不需要我啦我只會吵到你而已不用這麼關心我我自己一個人就可以了我也很忙你才不是我的全世界沒有你我也可以玩得很開心真的不用你來陪我看你玩得開心就好了是我太情緒化又愛情緒勒索你真的不是你的問題啦從頭到尾都是我的問題你真的不用想那麼多我自己安靜一下就會好了你自己去玩吧我真的不難過嗯嗯嗯我不一定要你陪著看你跟他們玩的那麼開心我才不會吃醋你就當我在無理取鬧好了不用想那麼多你繼續去玩啊我真的不在意說了那麼多也只有我會在乎而已<br><br></p>
+        <p>為什麼中秋節時大家都喜歡叫學霸負責烤肉？
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            因為他都考得比其他人好</p>
+        </div>
+    </div>
+    <div id="ad" class="modal-content" style="display: none;">
+        <span class="close-btn-ad" onclick="closeAd()">&times;</span>
+        <strong>PEPEGAPHONE📢📢📢</strong>
+        <img src="image_set/下載 (2).jpg" alt="Ad Image" style="width:90%;height:auto;">
+    </div>
+    <div id="time-display">0000.0s</div>
+    <div id="clock" style="position: fixed; top: 10px; right: 10px;"></div>
+
+    <header>
+        <h1>徐柏安的自我介紹</h1>
+        <nav>
+            <a href="./index_en.html">English page</a>
+            <a href="./sitemap.html">網站地圖</a>
+            <a href="./elements.html">元素清單</a>
+            <button onclick="showModal('click')">顯示彈出視窗</button>
+            <button onclick="SwitchDarkMode()">切換黑暗模式</button>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>關於我</h2>
+            <p>我是徐柏安，目前就讀NYCU資訊工程系大三</p>
+        </section>
+        <section>
+            <h2>github 連結</h2>
+            <ul><li><button onclick="openLink()">cs12-richard</button></li></ul>
+        </section>
+        <section>
+            <h2>背景</h2>
+            <p>我是台中人</p>
+            <p>高中沒有程式經驗</p>
+            <p>沒有想要讀醫學系</p>
+            <p>因為家裡的關係，最後選擇了資訊工程這條路</p>
+        </section>
+        
+        <section>
+            <h2>興趣</h2>
+            <ul>
+                <li>玩遊戲 : 有空就會玩</li>
+		<li>閱讀 : 看比較多金融相關書籍，希望自己不要為了錢煩惱</li>
+		<li>看盤 : 每天都會看盤，增進自己對市場的靈敏度</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>未來規劃</h2>
+            <p>希望能在大四的時候找到實習機會，畢業後能進入理想的公司工作。以及碩班畢業前存到一筆錢。</p>
+        </section>
+        
+        <section>
+            <h2>夢想</h2>
+            <p>想要35歲前達到財務自由，過自己想要的生活。</p>
+        </section>
+        
+        <section>
+            <h2>最尊敬的一個人</h2>
+            <img src="image_set/image.png" alt="Jerome Powell" style="width:200px;height:auto;">
+            <p>Jerome Hayden "Jay" Powell</p>
+            <p>帶領美國走過2020年疫情的經濟衰退，並且在2024年成功控制通膨率從9.1%降到3.0%。</p>
+            <p>還有他的good afternoon跟hello everyone對市場的影響 ( x</p>
+            <p>因為這個，所以他有個梗圖</p>
+            <img src="image_set/下載.jpg" alt="Jay Powell Meme" style="width:300px;height:auto;">
+        </section>
+    </main>
+    
+    <footer>
+        © 2025 徐柏安 | <a href="./index.html">回首頁</a>
+    </footer>
+</body>
+</html>
